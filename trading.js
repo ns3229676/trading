@@ -54,9 +54,9 @@ const puppeteer = require('puppeteer');
      await page.waitForTimeout(1000)
      await a.press('Backspace'); 
      await page.waitForTimeout(1000)
-     await page.type('input[name="price"]', "5200");
+     await page.type('input[name="price"]', "5715");
      await page.waitForTimeout(1000)
-     await page.type('input[name="quantity"]', "1");
+     await page.type('input[name="quantity"]', "10");
      await page.waitForTimeout(1000)
      await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
 
@@ -68,11 +68,20 @@ const puppeteer = require('puppeteer');
     //  FOR PLACING SELL ORDER 1
 
     
-    //  await page.waitForTimeout(5000)
-    //  await page.type('input[name="quantitysell"]', "0.01865672");
-    //  await page.type('input[name="totalsell"]', "200");
-    //  await page.waitForTimeout(1000)
-    //  await page.click('button[class="btn SellNavButton btn-block w-100"]', "100");
+     await page.waitForTimeout(5000)
+     let b = await page.$('input[name="pricesell"]');
+     await b.press('Backspace'); 
+     await page.waitForTimeout(1000)
+     await b.press('Backspace'); 
+     await page.waitForTimeout(1000)
+     await b.press('Backspace'); 
+     await page.waitForTimeout(1000)
+     await b.press('Backspace'); 
+     await page.waitForTimeout(1000)
+     await page.type('input[name="pricesell"]', "5400");
+     await page.type('input[name="quantitysell"]', "10");
+     await page.waitForTimeout(1000)
+     await page.click('button[class="btn SellNavButton btn-block w-100"]', "100");
 
 
 
@@ -82,22 +91,40 @@ const puppeteer = require('puppeteer');
 
     await page.waitForTimeout(5000)
     
-    await page.type('input[name="price"]', "5300");
+    await page.type('input[name="price"]', "5600");
     await page.waitForTimeout(1000)
-    await page.type('input[name="quantity"]', "2");
+    await page.type('input[name="quantity"]', "10");
     await page.waitForTimeout(1000)
     await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+
+    //  FOR PLACING SELL ORDER 1
+
+    await page.waitForTimeout(5000)
+     await page.type('input[name="pricesell"]', "5350");
+     await page.type('input[name="quantitysell"]', "10");
+     await page.waitForTimeout(1000)
+     await page.click('button[class="btn SellNavButton btn-block w-100"]', "100");
 
 
       //  FOR PLACING BUY ORDER 2
 
       await page.waitForTimeout(5000)
      
-      await page.type('input[name="price"]', "5400");
+      await page.type('input[name="price"]', "5277");
       await page.waitForTimeout(1000)
-      await page.type('input[name="quantity"]', "3");
+      await page.type('input[name="quantity"]', "10");
       await page.waitForTimeout(1000)
       await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+
+      //  FOR PLACING SELL ORDER 1
+    
+    await page.waitForTimeout(5000)
+    await page.type('input[name="pricesell"]', "5200");
+    await page.type('input[name="quantitysell"]', "10");
+    await page.waitForTimeout(1000)
+    await page.click('button[class="btn SellNavButton btn-block w-100"]', "100");
 
 
       //  FOR PLACING BUY ORDER 2
@@ -106,21 +133,40 @@ const puppeteer = require('puppeteer');
      
       await page.type('input[name="price"]', "5500");
       await page.waitForTimeout(1000)
-      await page.type('input[name="quantity"]', "4");
+      await page.type('input[name="quantity"]', "10");
       await page.waitForTimeout(1000)
       await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
 
 
+
+       //  FOR PLACING SELL ORDER 1
+    
+    await page.waitForTimeout(5000)
+    await page.type('input[name="pricesell"]', "5200");
+    await page.type('input[name="quantitysell"]', "10");
+    await page.waitForTimeout(1000)
+    await page.click('button[class="btn SellNavButton btn-block w-100"]', "100");
+
+ 
 
       //  FOR PLACING BUY ORDER 2
 
       await page.waitForTimeout(5000)
       
-      await page.type('input[name="price"]', "5600");
+      await page.type('input[name="price"]', "5235");
       await page.waitForTimeout(1000)
-      await page.type('input[name="quantity"]', "5");
+      await page.type('input[name="quantity"]', "10");
       await page.waitForTimeout(1000)
       await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+
+       //  FOR PLACING SELL ORDER 1
+    
+    await page.waitForTimeout(5000)
+    await page.type('input[name="pricesell"]', "5522");
+    await page.type('input[name="quantitysell"]', "10");
+    await page.waitForTimeout(1000)
+    await page.click('button[class="btn SellNavButton btn-block w-100"]', "100");
    
     
 
@@ -128,11 +174,23 @@ const puppeteer = require('puppeteer');
 
       await page.waitForTimeout(5000)
      
-      await page.type('input[name="price"]', "5700");
+      await page.type('input[name="price"]', "5452");
       await page.waitForTimeout(1000)
-      await page.type('input[name="quantity"]', "6");
+      await page.type('input[name="quantity"]', "10");
       await page.waitForTimeout(1000)
       await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+
+       //  FOR PLACING SELL ORDER 1
+    
+    await page.waitForTimeout(5000)
+    await page.type('input[name="pricesell"]', "5750");
+    await page.type('input[name="quantitysell"]', "10");
+    await page.waitForTimeout(1000)
+    await page.click('button[class="btn SellNavButton btn-block w-100"]', "100");
+
+
+
    
 
     
@@ -143,9 +201,18 @@ const puppeteer = require('puppeteer');
      
       await page.type('input[name="price"]', "5720");
       await page.waitForTimeout(1000)
-      await page.type('input[name="quantity"]', "7");
+      await page.type('input[name="quantity"]', "10");
       await page.waitForTimeout(1000)
       await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+
+       //  FOR PLACING SELL ORDER 1
+    
+    await page.waitForTimeout(5000)
+    await page.type('input[name="pricesell"]', "5500");
+    await page.type('input[name="quantitysell"]', "10");
+    await page.waitForTimeout(1000)
+    await page.click('button[class="btn SellNavButton btn-block w-100"]', "100");
    
 
     
@@ -153,11 +220,20 @@ const puppeteer = require('puppeteer');
 
       await page.waitForTimeout(5000)
     
-      await page.type('input[name="price"]', "5700");
+      await page.type('input[name="price"]', "5200");
       await page.waitForTimeout(1000)
-      await page.type('input[name="quantity"]', "6");
+      await page.type('input[name="quantity"]', "10");
       await page.waitForTimeout(1000)
       await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+
+       //  FOR PLACING SELL ORDER 1
+    
+    await page.waitForTimeout(5000)
+    await page.type('input[name="pricesell"]', "5435");
+    await page.type('input[name="quantitysell"]', "10");
+    await page.waitForTimeout(1000)
+    await page.click('button[class="btn SellNavButton btn-block w-100"]', "100");
    
      
 
@@ -165,31 +241,61 @@ const puppeteer = require('puppeteer');
 
       await page.waitForTimeout(5000)
     
-      await page.type('input[name="price"]', "5600");
+      await page.type('input[name="price"]', "5650");
       await page.waitForTimeout(1000)
-      await page.type('input[name="quantity"]', "5");
+      await page.type('input[name="quantity"]', "10");
       await page.waitForTimeout(1000)
       await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+
+       //  FOR PLACING SELL ORDER 1
+    
+    await page.waitForTimeout(5000)
+    await page.type('input[name="pricesell"]', "5235");
+    await page.type('input[name="quantitysell"]', "10");
+    await page.waitForTimeout(1000)
+    await page.click('button[class="btn SellNavButton btn-block w-100"]', "100");
+
+      
    
  
       //  FOR PLACING BUY ORDER 2
 
       await page.waitForTimeout(5000)
      
-      await page.type('input[name="price"]', "5500");
+      await page.type('input[name="price"]', "5700");
       await page.waitForTimeout(1000)
-      await page.type('input[name="quantity"]', "4");
+      await page.type('input[name="quantity"]', "10");
       await page.waitForTimeout(1000)
       await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+
+       //  FOR PLACING SELL ORDER 1
+    
+    await page.waitForTimeout(5000)
+    await page.type('input[name="pricesell"]', "5435");
+    await page.type('input[name="quantitysell"]', "10");
+    await page.waitForTimeout(1000)
+    await page.click('button[class="btn SellNavButton btn-block w-100"]', "100");
 
 
       await page.waitForTimeout(5000)
      
-      await page.type('input[name="price"]', "5400");
+      await page.type('input[name="price"]', "5452");
       await page.waitForTimeout(1000)
-      await page.type('input[name="quantity"]', "4");
+      await page.type('input[name="quantity"]', "10");
       await page.waitForTimeout(1000)
       await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+
+
+       //  FOR PLACING SELL ORDER 1
+    
+    await page.waitForTimeout(5000)
+    await page.type('input[name="pricesell"]', "5222");
+    await page.type('input[name="quantitysell"]', "10");
+    await page.waitForTimeout(1000)
+    await page.click('button[class="btn SellNavButton btn-block w-100"]', "100");
 
    
     
