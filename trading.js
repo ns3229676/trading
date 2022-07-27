@@ -57941,6 +57941,171 @@ await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+await page.waitForTimeout(6000)
+await page.type('input[name="price"]', "4202.50");
+await page.waitForTimeout(1000)
+await page.type('input[name="total"]', "999");
+await page.waitForTimeout(1000)
+await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+await page.waitForTimeout(6000)
+await page.type('input[name="price"]', "4210.50");
+await page.waitForTimeout(1000)
+await page.type('input[name="total"]', "999");
+await page.waitForTimeout(1000)
+await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+await page.waitForTimeout(6000)
+await page.type('input[name="price"]', "4206.50");
+await page.waitForTimeout(1000)
+await page.type('input[name="total"]', "999");
+await page.waitForTimeout(1000)
+await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+
+
+await page.waitForTimeout(6000)
+await page.type('input[name="price"]', "4214.50");
+await page.waitForTimeout(1000)
+await page.type('input[name="total"]', "999");
+await page.waitForTimeout(1000)
+await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+
+
+await page.waitForTimeout(6000)
+await page.type('input[name="price"]', "4220.50");
+await page.waitForTimeout(1000)
+await page.type('input[name="total"]', "999");
+await page.waitForTimeout(1000)
+await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+
+
+await page.waitForTimeout(6000)
+await page.type('input[name="price"]', "4222.50");
+await page.waitForTimeout(1000)
+await page.type('input[name="total"]', "999");
+await page.waitForTimeout(1000)
+await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+
+await page.waitForTimeout(6000)
+await page.type('input[name="price"]', "4225.50");
+await page.waitForTimeout(1000)
+await page.type('input[name="total"]', "999");
+await page.waitForTimeout(1000)
+await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+
+await page.waitForTimeout(6000)
+await page.type('input[name="price"]', "4210.50");
+await page.waitForTimeout(1000)
+await page.type('input[name="total"]', "999");
+await page.waitForTimeout(1000)
+await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+
+await page.waitForTimeout(6000)
+await page.type('input[name="price"]', "4218.50");
+await page.waitForTimeout(1000)
+await page.type('input[name="total"]', "999");
+await page.waitForTimeout(1000)
+await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+
+
+await page.waitForTimeout(6000)
+await page.type('input[name="price"]', "4227.50");
+await page.waitForTimeout(1000)
+await page.type('input[name="total"]', "999");
+await page.waitForTimeout(1000)
+await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+
+await page.waitForTimeout(6000)
+await page.type('input[name="price"]', "4235.50");
+await page.waitForTimeout(1000)
+await page.type('input[name="total"]', "999");
+await page.waitForTimeout(1000)
+await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+
+
+await page.waitForTimeout(6000)
+await page.type('input[name="price"]', "4200.50");
+await page.waitForTimeout(1000)
+await page.type('input[name="total"]', "999");
+await page.waitForTimeout(1000)
+await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+
+await page.waitForTimeout(6000)
+await page.type('input[name="price"]', "4221.50");
+await page.waitForTimeout(1000)
+await page.type('input[name="total"]', "999");
+await page.waitForTimeout(1000)
+await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+
+await page.waitForTimeout(6000)
+await page.type('input[name="price"]', "4228.50");
+await page.waitForTimeout(1000)
+await page.type('input[name="total"]', "999");
+await page.waitForTimeout(1000)
+await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+
+
+await page.waitForTimeout(6000)
+await page.type('input[name="price"]', "4230");
+await page.waitForTimeout(1000)
+await page.type('input[name="total"]', "999");
+await page.waitForTimeout(1000)
+await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+await page.waitForTimeout(6000)
+await page.type('input[name="price"]', "4234");
+await page.waitForTimeout(1000)
+await page.type('input[name="total"]', "999");
+await page.waitForTimeout(1000)
+await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+await page.waitForTimeout(6000)
+await page.type('input[name="price"]', "4239");
+await page.waitForTimeout(1000)
+await page.type('input[name="total"]', "999");
+await page.waitForTimeout(1000)
+await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+
+await page.waitForTimeout(6000)
+await page.type('input[name="price"]', "4245");
+await page.waitForTimeout(1000)
+await page.type('input[name="total"]', "999");
+await page.waitForTimeout(1000)
+await page.click('button[class="btn BuyNavButton btn-block w-100"]', "100");
+
+
+
+
+
+
+
   
     
  
